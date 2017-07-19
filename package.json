@@ -1,0 +1,21 @@
+{
+  "name": "witai-query",
+  "version": "1.1.2",
+  "description": "i want to type some text, and query witai directly from my console",
+  "main": "cli.js",
+  "bin": {
+    "witai": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AionDev <developer.andrasesc.ionut@gmail.com>",
+  "repository" : "https://github.com/AionDev/witai-query.git",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "curl": "^0.1.4",
+    "pretty-print": "^1.1.0",
+    "user-settings": "^0.1.5"
+  }
+}
